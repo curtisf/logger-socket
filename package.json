@@ -1,0 +1,20 @@
+{
+  "name": "logger-socket",
+  "version": "0.1.0",
+  "description": "distributed discord websocket that feeds a consumer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Curtis Fowler (caf203@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "detritus-client-socket": "^0.5.1",
+    "ioredis": "^4.17.3",
+    "minimist": "^1.2.5",
+    "superagent": "^5.2.2",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v18.3.0",
+    "util": "^0.12.3",
+    "ws": "^7.3.0"
+  }
+}
